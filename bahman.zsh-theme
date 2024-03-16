@@ -1,8 +1,9 @@
-PROMPT='%F{#888}󰡱%f %(!.%{$fg[red]%}.%{$fg[cyan]%})%1~$(git_prompt_info)%{$reset_color%} $ARROW'
+PROMPT='$HEAD$(git_prompt_info)$ARROW'
 RPROMPT="%F{#666}%D{%I:%M %p}%f"
 
-ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}("
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$fg_bold[blue]%})"
-ZSH_THEME_GIT_PROMPT_DIRTY=":%{$fg[red]%}✕"
-ZSH_THEME_GIT_PROMPT_CLEAN=":%{$fg[green]%}✓"
-ARROW="%F{yellow}→%f "
+HEAD="%F{#f85}󰵮 %1~%f"
+ARROW=" %F{yellow}󰁔%f "
+ZSH_THEME_GIT_PROMPT_PREFIX=" %F{#444}󱍿%f%F{#999} 󰊤 "
+ZSH_THEME_GIT_PROMPT_SUFFIX="%F{#999}%f"
+ZSH_THEME_GIT_PROMPT_DIRTY=" %F{#f66}󱓌%f"
+ZSH_THEME_GIT_PROMPT_CLEAN=" %F{#5b8}󱓏%f"
