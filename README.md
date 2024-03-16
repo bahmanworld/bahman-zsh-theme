@@ -1,1 +1,1 @@
-Simple ZSH Theme
+![Screentshot](screenshot.png)
