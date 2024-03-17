@@ -1,2 +1,2 @@
-![Screentshot](screenshot.png)
+![Screenshot](screenshot.png)
 * Nerd Fonts Required
