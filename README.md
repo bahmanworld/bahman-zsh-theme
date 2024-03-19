@@ -1,2 +1,2 @@
-* \* Nerd Fonts Required
+* **Nerd Fonts Required**
 ![Screenshot](screenshot.png)
