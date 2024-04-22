@@ -1,9 +1,9 @@
 PROMPT='$HEAD$(git_prompt_info)$ARROW'
-RPROMPT="%(?.%F{#2dde98}󰍕%f.%F{#ff6c5f}󱇎%f) %F{#666}󱑁 %D{%H:%M:%S}%f"
+RPROMPT="%(?.%{$fg[green]%}󰍕.%{$fg[red]%}󱇎) %{$fg[white]%}󱑁 %D{%H:%M:%S}"
 
-HEAD="%F{#ffac5f}󰛫 %2~%f"
-ARROW=" %F{#2dde98}󰁔%f "
-ZSH_THEME_GIT_PROMPT_PREFIX=" %F{#666}󰇝%f%F{#aaa} 󰊤 "
-ZSH_THEME_GIT_PROMPT_SUFFIX="%F{#999}%f"
-ZSH_THEME_GIT_PROMPT_DIRTY=" %F{#ff6c5f}󱓌%f"
-ZSH_THEME_GIT_PROMPT_CLEAN=" %F{#2dde98}󱓏%f"
+HEAD="%{$fg[yellow]%}󰛫 %0~"
+ARROW=" %{$fg[white]%}󰁔 "
+ZSH_THEME_GIT_PROMPT_PREFIX=" %{$fg[white]%}󰇝 %{$fg[white]%}󰊤 "
+ZSH_THEME_GIT_PROMPT_SUFFIX=""
+ZSH_THEME_GIT_PROMPT_DIRTY=" %{$fg[red]%}󱓌"
+ZSH_THEME_GIT_PROMPT_CLEAN=" %{$fg[green]%}󱓏"
