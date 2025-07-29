@@ -1,6 +1,6 @@
 
 ### ⚠️ Nerd Fonts Required
-- <a href="https://www.nerdfonts.com/font-downloads" target="_blank">Download Nerd Fonts Here</a>
+- <a href="https://www.nerdfonts.com/font-downloads">Download Nerd Fonts Here</a>
 
 ### 🎨 iTerm2 color preset included 
 - Import `bahman.itermcolors` into iTerm2 app, use following location:
